@@ -4,7 +4,7 @@
 /* commom */
 body {
 	background-image: url(http://7q5cdt.com1.z0.glb.clouddn.com/bg-canvas_bg.jpg);
-    font-family: 'Microsoft YaHei', 'Helvetica','Arial','SimHei', sans-serif;
+    font-family: 'Microsoft YaHei', 'SimHei', sans-serif;
 }
 article p{
 	/*text-indent: 2em;*/
@@ -55,7 +55,7 @@ nav{
 	border-radius: 0;
 }
 .navbar-nav li{
-	width: 95px;
+	min-width: 95px;
 	text-align: center;
 }
 
@@ -101,20 +101,6 @@ nav{
 	
 }
 
-.paginator{
-	border-top:1px solid #ddd;
-	text-align: center;
-	padding: 15px 20px;
-}
-.paginator a{
-	/*display: inline-block;*/
-	margin: 0 12px;
-}
-.paginator .active{
-	margin: 0 12px;
-	color:#2E2435;
-	font-weight: bold;
-}
 
 /* categories list */
 .categories-list-header {
@@ -274,7 +260,7 @@ footer .point{
  */
 blockquote {
     color: #444;
-    border-left: 5px solid #D6DBDF;
+    border-left: 5px solid #0080ff;
     padding-left: 15px;
     font-size: 16px;
     background: rgba(112,138,153,.1);
@@ -467,11 +453,11 @@ blockquote:last-child {
 @media screen and (max-width: 1200px){
 	.post{
 		padding:10px 10px;
-		font-size: 15px;
-		line-height: 1.4;
+		font-size: 14px;
+		line-height: 1.3;
 	}
 	blockquote {
-		border-left: 3px solid #D6DBDF;
+		border-left: 3px solid #0080ff;
     	padding-left: 5px;
     	font-size: 14px;
 	}
@@ -482,5 +468,3 @@ blockquote:last-child {
 		padding-left: 25px;
 	}
 }
-
-
